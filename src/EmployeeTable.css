@@ -1,0 +1,41 @@
+
+.employee-table-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search-input {
+    margin-top: 6px;
+    max-width: 300px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .employee-table {
+    max-width: 90%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  
+.employee-table th,
+.employee-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.employee-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.employee-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.employee-table tr:hover {
+    background-color: #ddd
+}
